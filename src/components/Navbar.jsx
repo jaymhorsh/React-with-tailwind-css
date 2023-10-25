@@ -9,13 +9,13 @@ const Navbar = () => {
     <div className="w-screen h-[60px] bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full ">
         <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND.</h1>
-          <ul className="md:flex hidden ">
-            <li>Home</li>
-            <li>About </li>
-            <li>Support</li>
-            <li>Product</li>
-            <li>Pricing</li>
+          <h1 className="text-3xl font-bold mr-9 sm:text-4xl text-indigo-600">Cloud@t</h1>
+          <ul className="md:flex hidden text-xl">
+            <li className="pr-5">Home</li>
+            <li className="pr-5">About </li>
+            <li className="pr-5">Support</li>
+            <li className="pr-5">Product</li>
+            <li className="pr-5">Pricing</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
