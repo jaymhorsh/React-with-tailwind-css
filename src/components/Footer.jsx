@@ -6,7 +6,6 @@ import {
   FaInstagram,
   FaTwitter,
   FaTwitch,
-  FaCopyright
 } from "react-icons/fa";
 
 

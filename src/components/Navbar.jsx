@@ -6,8 +6,8 @@ const Navbar = () => {
   const toggleMenu = () => setNav(!nav);
 
   return (
-    <div className="w-screen h-[60px] bg-zinc-200 fixed drop-shadow-lg">
-      <div className="px-2 flex justify-between items-center w-full h-full ">
+    <div className="w-screen h-[60px] bg-zinc-200 fixed drop-shadow-lg z-[9999]">
+      <div className="px-5 flex justify-between items-center w-full h-full ">
         <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold mr-9 sm:text-4xl text-indigo-600">Cloud@t</h1>
           <ul className="md:flex hidden text-xl">
@@ -25,7 +25,7 @@ const Navbar = () => {
           <button className="px-5 py-2.5">Sign-out</button>
         </div>
         <div className="md:hidden" onClick={toggleMenu}>
-          {!nav ? <MenuIcon className="w-5"  /> : <XIcon className="w-5" />}
+          {!nav ? <MenuIcon className="w-7"  /> : <XIcon className="w-7" />}
         </div>
       </div>
       <ul className={!nav ? "hidden" : "absolute w-full px-8 bg-zinc-200 " }>
